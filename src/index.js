@@ -1,8 +1,15 @@
-import @ from 'contracts.js';
+'use strict';
 
-@ (Num) -> Num
-function plus1(x){
-  return λ(_1 + 1)(x);
+class Cow {
+  static setToken(str){
+    this._token = str;
+  }
 }
 
-console.log(plus1("hi"));
+class Herd {
+
+}
+
+module.exports = {
+  Cow: Cow, Herd: Herd
+}

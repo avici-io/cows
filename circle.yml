@@ -4,4 +4,4 @@ machine:
 
 test:
   override:
-    - ./node_modules/.bin/gulp test
+    - ./node_modules/.bin/mocha

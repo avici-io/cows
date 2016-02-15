@@ -30,7 +30,5 @@ jspm_packages
 # Optional npm cache directory
 .npm
 
-test-build
-
 # Optional REPL history
 .node_repl_history
