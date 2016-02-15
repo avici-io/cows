@@ -1,0 +1,26 @@
+{
+  "name": "cows",
+  "version": "0.1.0",
+  "description": "an internally-used library of avici.io to abstract away file uploads",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "BakaBBQ",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.3.1",
+    "harmony-reflect": "^1.4.2",
+    "ramda": "^0.19.1"
+  },
+  "devDependencies": {
+    "contracts-js": "^0.6.3",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-sweetjs": "^0.6.1",
+    "lambda-jam": "0.0.3",
+    "sweet-bdd": "^1.1.1"
+  }
+}
